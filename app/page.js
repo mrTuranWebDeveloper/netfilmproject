@@ -1,7 +1,10 @@
-import Image from 'next/image'
+import React from 'react'
+import HomeContainer from '@/containers/home'
 
-export default function Home() {
+function HomePage() {
   return (
-  <div>ömer turan</div>
+    <HomeContainer />
   )
 }
+
+export default HomePage;
