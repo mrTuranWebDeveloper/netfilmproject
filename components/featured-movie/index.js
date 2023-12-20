@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { FaPlus } from "react-icons/fa";
+
 import styles from "./styles.module.css";
 
 function FeaturedMovie({ movie = {}, isCompact = true }) {

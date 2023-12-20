@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+
 import styles from "./styles.module.css";
 
 function Footer() {
@@ -13,4 +14,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+export { Footer };
